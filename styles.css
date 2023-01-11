@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home {
+}
+
+h3 {
+  color: white;
+  margin-left: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #1b244a;
+  color: white;
+  border-radius: 10px;
+}
+
+.score-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.score {
+  font-family: "Cursed Timer ULiL";
+  color: red;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.new-game {
+  background-color: maroon;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 30px;
+}
